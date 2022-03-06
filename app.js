@@ -152,6 +152,7 @@ app.get("/about", function(req, res) {
 });
 
 let port = process.env.PORT;
+// the code below should work but this one works instead found on stackOverflow. Need to revisit.
 // if port == null || port == "") {
 //   port = 3000;
 // }
